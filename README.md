@@ -1,1 +1,1 @@
-# cocktails_db
+# weather_bot
