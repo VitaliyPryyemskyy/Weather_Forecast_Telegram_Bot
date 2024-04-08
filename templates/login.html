@@ -1,0 +1,16 @@
+<h1>Enter your name</h1>
+
+{% if error_message %}
+<p>{{ error_message }}</p>
+{% endif %}
+
+
+{% if first_name %}
+<p>Welcome, {{ first_name }}</p>
+{% endif %}
+
+<form action="{{ url_for('login') }}" method="post">
+    <input type="text" placeholder="First name" name="first_name"/>
+    <input type="text" placeholder="Last name" name="last_name"/>
+    <button type="submit">Login</button>
+</form>
