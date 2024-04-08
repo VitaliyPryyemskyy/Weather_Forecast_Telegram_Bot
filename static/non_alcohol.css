@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 3px;
+}
+
+header {
+    background-color: rgb(171, 172, 166);
+    color: rgb(176, 62, 62);
+    font-size: 27px;
+    font-family: Calibri;
+    border-bottom: 2px rgb(176, 100, 52) solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5%;
+    text-shadow: 2px 6px #ab8c79
+}
+
+header img {
+    width: 200px;
+    height: 140px;
+    border-radius: 25px
+}
+
+main {
+    color: aliceblue;
+    background: linear-gradient(to bottom, #ece4e4, #655a5a);
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+nav a {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    border: 1px gold solid;
+    background-color: rgb(199, 91, 91);
+    color: rgb(46, 41, 44);
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+p {
+    font-size: 15px;
+    font-family: Verdana;
+    color: rgb(112, 43, 47);
+    margin: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(72, 86, 20);
+    font-family: 'Lucida Sans';
+    margin-left: 90px;
+}
+
+h3 {
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(61, 71, 68);
+    margin-right: 50px;
+    margin-left: 1px;
+    margin-top: 90px;
+}
+
+.margarita {
+    display: flex;
+    flex-direction: row;
+    border: 4px rgb(108, 18, 18) solid;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+
+}
+
+.margarita img {
+    width: 160px;
+    height: 180px;
+    margin-left: 168px;
+    margin-right: 0px;
+}
+
+.appletini {
+    display: flex;
+    flex-direction: row;
+    border: 4px rgb(108, 18, 18) solid;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+
+}
+
+.appletini img {
+    width: 164px;
+    height: 180px;
+    margin-left: 175px;
+    margin-right: 0px;
+}
+
+.Sunrise {
+    display: flex;
+    flex-direction: row;
+    border: 4px rgb(108, 18, 18) solid;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+
+}
+
+.Sunrise img {
+    width: 169px;
+    height: 180px;
+    margin-left: 189px;
+    margin-right: 0px;
+}

@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 3px;
+
+}
+
+header {
+    background-color: rgba(71, 19, 185, 0.93);
+    color: rgb(218, 10, 194);
+    font-size: 28px;
+    font-family: Calibri;
+    border-bottom: 2px rgb(217, 126, 218) solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5%;
+    text-shadow: 3px 4px #d896cd
+}
+
+header img {
+    width: 230px;
+    height: 150px;
+    border-radius: 40px;
+   
+}
+
+main {
+    background: linear-gradient(to bottom, #e6b0e7, #5366a4);
+    color: aliceblue;
+    margin: 2px;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+nav a {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    border: 1px gold solid;
+    background-color: rgb(203, 197, 208);
+    color: rgb(71, 62, 197);
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(236, 227, 235);
+    font-family: 'Lucida Sans';
+    margin-left: 90px;
+}
+
+h3 {
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(61, 71, 68);
+    margin-right: 50px;
+    margin-left: 1px;
+    margin-top: 90px;
+}
+
+p {
+    font-size: 15px;
+    font-family: Verdana;
+    color: rgb(24, 8, 93);
+    margin: 5px;
+}
+
+.shirley {
+    display: flex;
+    flex-direction: row;
+    border: 4px rgb(118, 17, 164) solid;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+}
+
+.shirley img {
+    width: 180px;
+    height: 180px;
+    margin-left: 150px;
+    margin-right: 0px;
+}
+
+.cotton {
+    display: flex;
+    flex-direction: row;
+    border: 4px rgb(118, 17, 164)solid;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+}
+
+.cotton img {
+    width: 180px;
+    height: 160px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.gummy {
+    display: flex;
+    flex-direction: row;
+    border: 4px rgb(118, 17, 164)solid;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+}
+
+.gummy img {
+    width: 180px;
+    height: 160px;
+    margin-left: 48px;
+    margin-right: 0px;
+}
