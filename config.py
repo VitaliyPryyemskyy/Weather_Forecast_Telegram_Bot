@@ -1,2 +1,3 @@
-open_wether_token = "092a672a87a1ae05b71729e23a4a8c1a"
-tg_bot_token = '7020119013:AAFXoEpnM7WRYhqY2XGvyTAsG1hnfSjDjLQ'
+open_weather_token = "YOUR_OPENWEATHER_API_KEY"
+tg_bot_token = 'YOUR_TELEGRAM_BOT_TOKEN'
+unsplash_access_key = 'YOUR_UNSPLASH_ACCESS_KEY'
